@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Gallery</title>
+    </head>
+    <body>
+        <form action="">
+        <label for="uname">Enter Name:</label>
+            <input type="text" id="uname" size="30" maxlength="20" placeholder="Write Your Name Here" required>
+            <p><label for="pass">Enter Password:</label>
+                <input type="password" id="pass" name="Pass" required>
+            </p>
+            <label for="mail">Enter E-Mail:</label>
+            <input type="email" name="mail" id="mail" required>
+            <br><br>
+            <label for="review">Write a Review:</label><br>
+            <textarea name="review" id="review" rows="10" cols="50">This is a Good Movie</textarea><br>
+            <label for="hobby">Choose Your Hobby:</label><br>
+            <input type="checkbox" id="hobby" name="hobby" value="read">Reading<br>
+            <input type="checkbox" id="hobby" name="hobby" value="sleep">Sleeping<br>
+            <input type="checkbox" id="hobby" name="hobby" value="dance">Dancing<br>
+            <label for="programme">Choose Your Programme:</label>
+            <input type="radio" id="programme" name="programme" value="btech">B.Tech
+            <input type="radio" id="programme" name="programme" value="hm">Hotel Management<br>
+            <label for="statesel">Choose Your State:</label>
+            <select name="statesel" id="statesel">
+                <option value="choosestate">Choose Your State</option>
+                <option value="jhar">Jharkhand</option>
+                <option value="bih">Bihar</option>
+                <option value="pun">Punjab</option>
+                <option value="up">Uttar Pradesh</option>
+            </select><br>
+            <label for="filesel">Choose File: </label>
+            <input type="file" id="filesel" name="filesel"><br>
+            <input type="image" name="imgbtn" id="imgbtn" height="28" width="55" src="download (1).jpeg">
+            <input type="reset" name="resetform" id="resetform" value="Reset Form">
+            
+        </form>
+    </body>
+</html>

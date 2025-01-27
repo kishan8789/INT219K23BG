@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: orange;
+            display: flex;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            min-height: 300px;
+            align-items: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: 30px;
+        }
+        .item{
+            display: flex;
+            background-color: red;
+            border: 3px blue solid;
+            width: 100px;
+            height: 50px;
+            justify-content:center ;
+            flex-shrink: 1;
+            flex-grow: 1;
+             
+
+        }
+        #i1{
+            flex-grow: 0;
+            flex-shrink: 0;
+            align-self: flex-start;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">  item 1</div>
+        <div class="item">  item 2</div>
+        <div class="item">  item 3</div>
+        <div class="item">  item 4</div>
+        <div class="item">  item 5</div>
+
+    </div>
+    
+</body>
+</html>
